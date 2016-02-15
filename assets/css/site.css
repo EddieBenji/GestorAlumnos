@@ -1,0 +1,259 @@
+body {
+    background-color: #fffcde;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/*Login*/
+#login{
+    height: 90vh;
+}
+header h3 {
+    padding-top: 2em;
+    text-align: center;
+    color: #4A7B9D;
+    text-transform: uppercase;
+    padding-bottom: .5em;
+}
+
+#login-form {
+    width: 35%;
+    display: block;
+    margin: auto;
+    border-top: 1px dotted #4A7B9D;
+    padding-top: 1em;
+}
+
+#login-form div {
+    display: block;
+    margin: auto;
+    width: 85%;
+}
+
+#login-form label, #login-form input {
+    display: inline-block;
+}
+
+#login-form label {
+    width: 11em;
+    color: #885884;
+    float: left;
+    clear: both;
+}
+
+#login-form input {
+    margin-bottom: .5em;
+    border-radius: 5px;
+    border: 1px solid #4A7B9D;
+    color: #515151;
+    width: 15em;
+    height: 2em;
+    float: right;
+}
+
+#login-form button {
+    clear: both;
+    background-color: #4A7B9D;
+    border: none;
+    margin-top: 1em;
+    color: #FBFEF9;
+    border-radius: 5px;
+    width: 15.1em;
+    height: 2.5em;
+    cursor: pointer;
+    float: right;
+}
+
+/*Menu Principal*/
+header#menu {
+    width: 100%;
+    height: 3em;
+    background-color: #4A7B9D;
+}
+
+header#menu a {
+    color: #FBFEF9;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: .01em 2em;
+    line-height: 3em;
+    text-align: center;
+    margin: 0;
+    display: inline-block;
+    border-right: 1px solid #405d80;
+    outline: none;
+}
+header#menu a:hover {
+    background-color: #426484;
+}
+#alumno .alumno, #tutor .tutor{
+    font-weight: bold;
+    background-color: #426484;
+}
+#logout{
+     float: right;
+ }
+/*Menu Secundario*/
+#menu-actions ul{
+    padding-left: .5em;
+    z-index: 1;
+}
+#menu-actions ul li{
+    list-style: none;
+    display: inline-block;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    background-color: #885884;
+    border: 1px solid rgba(136, 88, 132, 0.5);
+    border-radius: 5px 5px 0 0;
+    border-bottom: none;
+}
+#menu-actions ul li a{
+    text-decoration: none;
+    color: #FBFEF9;
+    outline: none;
+    padding: .5em 3.25em;
+    cursor: pointer;
+}
+#menu-actions ul li a:hover{
+    background-color: #a36d9f;
+    border-radius: 5px 5px 0 0;
+}
+#menu-actions ul li.active a{
+    background-color: #FBFEF9;
+    border-radius: 5px 5px 0 0;
+    color: #885884;
+}
+hr{
+    border: 1px solid rgba(136, 88, 132, 0.5);
+    margin-top: -1.1em;
+    z-index: -1;
+}
+/*Errores*/
+#error{
+    color: #be3742;
+    font-size: .7rem;
+    text-align: center;
+    padding-bottom: 1em;
+    font-weight: bold;
+}
+
+/*Form*/
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: #405d80;
+    font-weight: bold;
+}
+form{
+    width: 30%;
+    margin: auto;
+    display: block;
+}
+form label{
+    display: inline-block;
+    width: 10em;
+}
+form input[type="text"], form input[type="date"], form input[type="email"], select{
+    display: inline-block;
+    width: 14em;
+    margin-bottom: .5em;
+    border-radius: 5px;
+    border: 1px solid #4A7B9D;
+    height: 1.7em;
+}
+form label.genero{
+    width: 7em;
+    text-align: center;
+    margin-bottom: .5em;
+}
+form button{
+    float: right;
+    width: 10em;
+    height: 2.5em;
+    margin-right: 2.35em;
+    border-radius: 5px;
+    border: 1px solid #4A7B9D;
+    background-color: #4A7B9D;
+    color: #FBFEF9;
+    cursor: pointer;
+}
+form#cambios{
+    width: 100%;
+}
+form#cambios input[type="text"]{
+    background-color: transparent;
+    border:none;
+    width: 10em;
+    text-align: center;
+
+}
+form#cambios input[type="email"]{
+    width: 14em;
+    background-color: transparent;
+    border:none;
+    text-align: center;
+}
+form#cambios label{
+    width: auto;
+    text-align: center;
+    font-size: .9rem;
+    display: block;
+}
+table td, table th{
+    border: 1px solid #885884;
+}
+table th{
+    background-color: #885884;
+    color: #FBFEF9;
+    text-transform: uppercase;
+    font-size: .7rem;
+}
+form#cambios table td{
+    padding: 0;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+    display: block;
+}
+form#cambios table td button{
+    width: 7em;
+    height: 1.5em;
+    font-size: .7rem;
+    margin-right: 0;
+    float: none;
+}
+div#resultado{
+    color: #885884;
+}
+div#busqueda{
+    padding-top: 5em;
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+#crud-content{
+    padding-top: 3em;
+}
+#crud-content h5{
+    text-align: center;
+    color: #4A7B9D;
+    text-transform: uppercase;
+}
+/*Footer*/
+footer{
+    clear: both;
+    padding-top: 5em;
+}
+footer small{
+    display: inline-block;
+    text-transform: uppercase;
+    color: #4A7B9D;
+    font-size: .6rem;
+    padding-left: 2em;
+}
+footer small#clase{
+    float: right;
+    padding-right: 2em;
+}
